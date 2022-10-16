@@ -84,7 +84,7 @@ module.exports = async(conn, msg, m, setting, store, welcome) => {
 		const isCmd = command.startsWith(prefix)
 		const isGroup = msg.key.remoteJid.endsWith('@g.us')
 		const sender = isGroup ? (msg.key.participant ? msg.key.participant : msg.participant) : msg.key.remoteJid
-		const isOwner = ownerNumber == sender ? true : ["62895638102488@s.whatsapp.net", "628978378100@s.whatsapp.net"].includes(sender) ? true : false
+		const isOwner = ownerNumber == sender ? true : ["6288980870067@s.whatsapp.net", "6288980870067@s.whatsapp.net"].includes(sender) ? true : false
 		const pushname = msg.pushName
 		const q = chats.slice(command.length + 1, chats.length)
 		const body = chats.startsWith(prefix) ? chats : ''
@@ -395,8 +395,8 @@ module.exports = async(conn, msg, m, setting, store, welcome) => {
 var teks = ` ❏ 𝔻𝕠𝕟𝕒𝕤𝕚 𝔹𝕠𝕥 
 
 Hi ${pushname} 👋🏻
-𝗗𝗮𝗻𝗮 : 085807264974
-𝗣𝘂𝗹𝘀𝗮 : +6285807264974
+𝗗𝗮𝗻𝗮 : 088980870067
+𝗣𝘂𝗹𝘀𝗮 : +6283112831554
 
 𝙏𝙚𝙧𝙞𝙢𝙖𝙠𝙖𝙨𝙞𝙝 𝘽𝙪𝙖𝙩 𝙆𝙖𝙢𝙪 𝙔𝙖𝙣𝙜 𝙎𝙪𝙙𝙖𝙝 𝙈𝙖𝙪 𝘿𝙤𝙣𝙖𝙨𝙞 𝙐𝙣𝙩𝙪𝙠 𝙋𝙚𝙧𝙠𝙚𝙢𝙗𝙖𝙣𝙜𝙖𝙣 𝘽𝙤𝙩 𝙄𝙣𝙞
 𝙏𝙝𝙖𝙣𝙠𝙨 𝙎𝙪𝙨𝙖𝙝 𝙈𝙖𝙪 𝘿𝙤𝙣𝙖𝙨𝙞`
